@@ -1,0 +1,1 @@
+var gamefiles = ['CyberBar.ags', 'acsetup.cfg'];

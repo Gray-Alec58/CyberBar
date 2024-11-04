@@ -19,7 +19,7 @@
   </Component>
   <WorkspaceState>
     <LastBuildConfiguration>Debug</LastBuildConfiguration>
-    <LastBuildGameFileName>DataFile=CyberBar,Windows=CyberBar,_Debug=CyberBar,</LastBuildGameFileName>
+    <LastBuildGameFileName>DataFile=CyberBar,Windows=CyberBar,_Debug=CyberBar,Web=CyberBar,</LastBuildGameFileName>
     <RequiresRebuild>False</RequiresRebuild>
   </WorkspaceState>
 </AGSEditorUserData>
