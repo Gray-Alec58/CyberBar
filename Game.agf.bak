@@ -664,6 +664,30 @@
             <Description IsNull="True" />
             <Number>3</Number>
           </UnloadedRoom>
+          <UnloadedRoom>
+            <Description IsNull="True" />
+            <Number>4</Number>
+          </UnloadedRoom>
+          <UnloadedRoom>
+            <Description IsNull="True" />
+            <Number>5</Number>
+          </UnloadedRoom>
+          <UnloadedRoom>
+            <Description IsNull="True" />
+            <Number>6</Number>
+          </UnloadedRoom>
+          <UnloadedRoom>
+            <Description IsNull="True" />
+            <Number>7</Number>
+          </UnloadedRoom>
+          <UnloadedRoom>
+            <Description IsNull="True" />
+            <Number>8</Number>
+          </UnloadedRoom>
+          <UnloadedRoom>
+            <Description IsNull="True" />
+            <Number>9</Number>
+          </UnloadedRoom>
         </UnloadedRooms>
       </UnloadedRoomFolder>
     </Rooms>
@@ -2156,7 +2180,7 @@
             <ID>1</ID>
             <Image>2041</Image>
             <Name>iBlueCup</Name>
-            <PlayerStartsWithItem>True</PlayerStartsWithItem>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
             <Properties />
             <Interactions>
               <Event Index="0" />
@@ -2174,7 +2198,7 @@
             <ID>2</ID>
             <Image>2042</Image>
             <Name>iKey</Name>
-            <PlayerStartsWithItem>True</PlayerStartsWithItem>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
             <Properties />
             <Interactions>
               <Event Index="0" />
@@ -2199,6 +2223,240 @@
               <Event Index="1" />
               <Event Index="2" />
               <Event Index="3" />
+              <Event Index="4" />
+            </Interactions>
+          </InventoryItem>
+          <InventoryItem>
+            <CursorImage>48</CursorImage>
+            <Description>Strawberry</Description>
+            <HotspotX>0</HotspotX>
+            <HotspotY>0</HotspotY>
+            <ID>4</ID>
+            <Image>48</Image>
+            <Name>iStrawberry</Name>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <Properties />
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+            </Interactions>
+          </InventoryItem>
+          <InventoryItem>
+            <CursorImage>44</CursorImage>
+            <Description>Lemon</Description>
+            <HotspotX>0</HotspotX>
+            <HotspotY>0</HotspotY>
+            <ID>5</ID>
+            <Image>44</Image>
+            <Name>iLemon</Name>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <Properties />
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+            </Interactions>
+          </InventoryItem>
+          <InventoryItem>
+            <CursorImage>43</CursorImage>
+            <Description>Blueberry</Description>
+            <HotspotX>0</HotspotX>
+            <HotspotY>0</HotspotY>
+            <ID>6</ID>
+            <Image>43</Image>
+            <Name>iBlueberry</Name>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <Properties />
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+            </Interactions>
+          </InventoryItem>
+          <InventoryItem>
+            <CursorImage>46</CursorImage>
+            <Description xml:space="preserve">Rose Petal</Description>
+            <HotspotX>0</HotspotX>
+            <HotspotY>0</HotspotY>
+            <ID>7</ID>
+            <Image>46</Image>
+            <Name>iRose</Name>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <Properties />
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+            </Interactions>
+          </InventoryItem>
+          <InventoryItem>
+            <CursorImage>45</CursorImage>
+            <Description>Mint</Description>
+            <HotspotX>0</HotspotX>
+            <HotspotY>0</HotspotY>
+            <ID>8</ID>
+            <Image>45</Image>
+            <Name>iMint</Name>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <Properties />
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+            </Interactions>
+          </InventoryItem>
+          <InventoryItem>
+            <CursorImage>47</CursorImage>
+            <Description xml:space="preserve">Sour Drop</Description>
+            <HotspotX>0</HotspotX>
+            <HotspotY>0</HotspotY>
+            <ID>9</ID>
+            <Image>47</Image>
+            <Name>iSour</Name>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <Properties />
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+            </Interactions>
+          </InventoryItem>
+          <InventoryItem>
+            <CursorImage>54</CursorImage>
+            <Description>Glass</Description>
+            <HotspotX>0</HotspotX>
+            <HotspotY>0</HotspotY>
+            <ID>10</ID>
+            <Image>54</Image>
+            <Name>iGlass</Name>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <Properties />
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3">iGlass_UseInv</Event>
+              <Event Index="4" />
+            </Interactions>
+          </InventoryItem>
+          <InventoryItem>
+            <CursorImage>53</CursorImage>
+            <Description xml:space="preserve">Red Rose</Description>
+            <HotspotX>0</HotspotX>
+            <HotspotY>0</HotspotY>
+            <ID>11</ID>
+            <Image>53</Image>
+            <Name>iRed</Name>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <Properties />
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3">iRed_UseInv</Event>
+              <Event Index="4" />
+            </Interactions>
+          </InventoryItem>
+          <InventoryItem>
+            <CursorImage>52</CursorImage>
+            <Description xml:space="preserve">Yellow Youth</Description>
+            <HotspotX>0</HotspotX>
+            <HotspotY>0</HotspotY>
+            <ID>12</ID>
+            <Image>52</Image>
+            <Name>iYellow</Name>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <Properties />
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3">iYellow_UseInv</Event>
+              <Event Index="4" />
+            </Interactions>
+          </InventoryItem>
+          <InventoryItem>
+            <CursorImage>51</CursorImage>
+            <Description xml:space="preserve">Breaking Blue</Description>
+            <HotspotX>0</HotspotX>
+            <HotspotY>0</HotspotY>
+            <ID>13</ID>
+            <Image>51</Image>
+            <Name>iBlue</Name>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <Properties />
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3">iBlue_UseInv</Event>
+              <Event Index="4" />
+            </Interactions>
+          </InventoryItem>
+          <InventoryItem>
+            <CursorImage>57</CursorImage>
+            <Description xml:space="preserve">Organic Orange</Description>
+            <HotspotX>0</HotspotX>
+            <HotspotY>0</HotspotY>
+            <ID>14</ID>
+            <Image>57</Image>
+            <Name>iOrange</Name>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <Properties />
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3">iOrange_UseInv</Event>
+              <Event Index="4" />
+            </Interactions>
+          </InventoryItem>
+          <InventoryItem>
+            <CursorImage>56</CursorImage>
+            <Description xml:space="preserve">Gallant Green</Description>
+            <HotspotX>0</HotspotX>
+            <HotspotY>0</HotspotY>
+            <ID>15</ID>
+            <Image>56</Image>
+            <Name>iGreen</Name>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <Properties />
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3">iGreen_UseInv</Event>
+              <Event Index="4" />
+            </Interactions>
+          </InventoryItem>
+          <InventoryItem>
+            <CursorImage>55</CursorImage>
+            <Description xml:space="preserve">Painful Purple</Description>
+            <HotspotX>0</HotspotX>
+            <HotspotY>0</HotspotY>
+            <ID>16</ID>
+            <Image>55</Image>
+            <Name>iPurple</Name>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <Properties />
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3">iPurple_UseInv</Event>
               <Event Index="4" />
             </Interactions>
           </InventoryItem>
@@ -2438,9 +2696,9 @@
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>1824</SpeechColor>
             <SpeechView>0</SpeechView>
-            <StartX>239</StartX>
-            <StartY>103</StartY>
-            <StartingRoom>1</StartingRoom>
+            <StartX>341</StartX>
+            <StartY>142</StartY>
+            <StartingRoom>6</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
             <UniformMovementSpeed>True</UniformMovementSpeed>
@@ -2491,7 +2749,7 @@
             <Interactions>
               <Event Index="0" />
               <Event Index="1" />
-              <Event Index="2" />
+              <Event Index="2">cRobot_Talk</Event>
               <Event Index="3" />
               <Event Index="4" />
               <Event Index="5" />
@@ -2520,10 +2778,10 @@
             <ScriptName>cNPC1</ScriptName>
             <Solid>True</Solid>
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
-            <SpeechColor>12</SpeechColor>
+            <SpeechColor>60607</SpeechColor>
             <SpeechView>0</SpeechView>
-            <StartX>116</StartX>
-            <StartY>292</StartY>
+            <StartX>125</StartX>
+            <StartY>163</StartY>
             <StartingRoom>3</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
@@ -2533,8 +2791,8 @@
             <Interactions>
               <Event Index="0" />
               <Event Index="1" />
-              <Event Index="2" />
-              <Event Index="3" />
+              <Event Index="2">cNPC1_Talk</Event>
+              <Event Index="3">cNPC1_UseInv</Event>
               <Event Index="4" />
               <Event Index="5" />
               <Event Index="6" />
@@ -2562,10 +2820,10 @@
             <ScriptName>cNPC2</ScriptName>
             <Solid>True</Solid>
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
-            <SpeechColor>12</SpeechColor>
+            <SpeechColor>59424</SpeechColor>
             <SpeechView>0</SpeechView>
-            <StartX>120</StartX>
-            <StartY>292</StartY>
+            <StartX>108</StartX>
+            <StartY>138</StartY>
             <StartingRoom>3</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
@@ -2576,7 +2834,49 @@
               <Event Index="0" />
               <Event Index="1" />
               <Event Index="2">cNPC2_Talk</Event>
-              <Event Index="3" />
+              <Event Index="3">cNPC2_UseInv</Event>
+              <Event Index="4" />
+              <Event Index="5" />
+              <Event Index="6" />
+              <Event Index="7" />
+            </Interactions>
+          </Character>
+          <Character>
+            <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
+            <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
+            <AnimationDelay>4</AnimationDelay>
+            <BlinkingView>0</BlinkingView>
+            <Clickable>True</Clickable>
+            <DiagonalLoops>True</DiagonalLoops>
+            <ID>5</ID>
+            <IdleAnimationDelay>4</IdleAnimationDelay>
+            <IdleDelay>20</IdleDelay>
+            <IdleView>0</IdleView>
+            <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
+            <MovementSpeed>3</MovementSpeed>
+            <MovementSpeedX>0</MovementSpeedX>
+            <MovementSpeedY>0</MovementSpeedY>
+            <NormalView>5</NormalView>
+            <Properties />
+            <RealName>Ray</RealName>
+            <ScriptName>cRay</ScriptName>
+            <Solid>True</Solid>
+            <SpeechAnimationDelay>5</SpeechAnimationDelay>
+            <SpeechColor>61481</SpeechColor>
+            <SpeechView>0</SpeechView>
+            <StartX>375</StartX>
+            <StartY>174</StartY>
+            <StartingRoom>5</StartingRoom>
+            <ThinkingView>0</ThinkingView>
+            <TurnBeforeWalking>True</TurnBeforeWalking>
+            <UniformMovementSpeed>True</UniformMovementSpeed>
+            <UseRoomAreaLighting>True</UseRoomAreaLighting>
+            <UseRoomAreaScaling>True</UseRoomAreaScaling>
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3">cRay_UseInv</Event>
               <Event Index="4" />
               <Event Index="5" />
               <Event Index="6" />
@@ -2629,6 +2929,513 @@ cJack: Thanks… I guess.
 stop
 ]]></Script>
             <DialogOptions />
+          </Dialog>
+          <Dialog>
+            <ID>2</ID>
+            <Name>dBar2</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+cJack: What do you want Robo?
+cRobot: I have been observing your work today sir.
+cJack: And...
+cRobot: You seem more tired than usual.
+cJack: You woke me up. What else would I be?
+cRobot: It's not just that sir. Something else seems to be bothering you.
+cJack: ...
+cRobot: I understand if you don't want to talk about it but it is affecting your work. Maybe speaking what is on your mind will help. Even if it is to a robot like me.
+cJack: You're not just a robot Robo. It's just...
+cJack: An old friend is suppose to be in town and I don't know if I want to see him or not.
+cRobot: Why is that sir?
+cJack: Well it's because...
+  cRay.ChangeRoom(3, 130, 240, eDirectionUp);
+  cRay.Walk(130, 132, eBlock);
+  cRobot.FaceCharacter(cRay,eBlock);
+  cJack.FaceCharacter(cRay,eBlock);
+stop
+]]></Script>
+            <DialogOptions />
+          </Dialog>
+          <Dialog>
+            <ID>3</ID>
+            <Name>dRay1</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+cRay: Hey Jack. Long time...
+cJack: Ray...
+return
+@1
+  RayGood +=1;
+cRay: It has been. How have you been?
+goto-dialog 4
+@2
+cRay: That's really how you want to great an old friend?
+cJack: I haven't seen you in 10 years. I don't really know what you expect from me.
+cRay: A bit of a warmer welcome I supose.
+  RayBad += 1;
+goto-dialog 5]]></Script>
+            <DialogOptions>
+              <DialogOption>
+                <ID>1</ID>
+                <Say>True</Say>
+                <Show>True</Show>
+                <Text xml:space="preserve">It's been a while...</Text>
+              </DialogOption>
+              <DialogOption>
+                <ID>2</ID>
+                <Say>True</Say>
+                <Show>True</Show>
+                <Text xml:space="preserve">What are you doing here?</Text>
+              </DialogOption>
+            </DialogOptions>
+          </Dialog>
+          <Dialog>
+            <ID>4</ID>
+            <Name>dRay01</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+
+@1
+cRay: You sure don't look it.
+cJack: What is that suppose to mean?
+cRay: I just mean you seem more... tired than what you use to be.
+cJack: Why is everyone commenting about my appearance.
+cJack: I look the same as I always do.
+cRay: Right. Of course...
+cJack: Look, if you are only here to critize me...
+goto-dialog 6
+@2
+cRay: I bet. I'm sure my surpise visit isn't helping.
+cJack: Not really. Caught me off guard.
+cRay: *chuckles* blunt as always. 
+cRay: I've been in town for a while... You could have reached out...
+cJack: You could have too.
+cRay: I've been busy...
+cJack: So have I. I can't be the only one to blame.
+goto-dialog 6]]></Script>
+            <DialogOptions>
+              <DialogOption>
+                <ID>1</ID>
+                <Say>True</Say>
+                <Show>True</Show>
+                <Text xml:space="preserve">I'm fine.</Text>
+              </DialogOption>
+              <DialogOption>
+                <ID>2</ID>
+                <Say>True</Say>
+                <Show>True</Show>
+                <Text xml:space="preserve">I've been better.</Text>
+              </DialogOption>
+            </DialogOptions>
+          </Dialog>
+          <Dialog>
+            <ID>5</ID>
+            <Name>dRay02</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+@1
+  RayGood += 1;
+cJack: You're right. Sorry. It's been a day.
+cRay: Yeah. I should have called first. 
+cRay: I was in the area and I thought "What's the harm?"
+cJack: A surprise visit from someone you haven't talked to in years?
+cJack: Yeah what could go wrong...
+cRay: I never said it was the smartest idea.
+cJack: Yeah you've never been that bright.
+goto-dialog 6
+@2
+  RayBad +=1;
+cJack: What do you expect from me? 
+cJack: A heartfelt embrace? Go have a smoke and talk about our feelings?
+cRay: No need to be rude.
+cRay: I just expected more from you after all this time. We were close.
+cJack: Key word: Were
+cRay: Come on. Don't be like that.
+goto-dialog 6
+]]></Script>
+            <DialogOptions>
+              <DialogOption>
+                <ID>1</ID>
+                <Say>False</Say>
+                <Show>True</Show>
+                <Text>Apologize</Text>
+              </DialogOption>
+              <DialogOption>
+                <ID>2</ID>
+                <Say>False</Say>
+                <Show>True</Show>
+                <Text>Retort</Text>
+              </DialogOption>
+            </DialogOptions>
+          </Dialog>
+          <Dialog>
+            <ID>6</ID>
+            <Name>dRay03</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+cRobot: If I may sir?
+  cRay.FaceCharacter(cRobot);
+cRay: Who are you? 
+cRobot: Robo. Pleasure to meet you... Ray?
+cRay: That's me.
+cRobot: Ray. May I suggest you order a drink?
+cRobot: This reunion seems to have brought much tension for everyone involved.
+cRay: You know what? Sure.
+cRay: I am in a bar after all.
+  cRay.FaceCharacter(cJack);
+cRay: Get me whatever.
+cJack: *sigh* sure
+stop
+]]></Script>
+            <DialogOptions />
+          </Dialog>
+          <Dialog>
+            <ID>7</ID>
+            <Name>dRay2</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+
+cRay: Thanks... *sips*
+cRay: Wow this is good. When did you get good at making drinks?
+cJack: Since I opened the bar 8 years ago.
+cRay: You run this place? Impressive.
+cJack: Yeah. Thanks. Needed to do something to pass the time.
+cRay: Right.
+  Wait(20);
+cRay: You want to talk about it?
+
+return
+@1
+  RayGood += 1;
+cJack: Where to start?
+cRay: To be honest, I didn't really think that far ahead.
+  Wait(20);
+cRobot: If I may sir?  
+goto-dialog 9
+
+@2
+  RayBad += 1;
+cRay: Jack...
+cJack: I said no, Ray.
+cJack: There is nothing to talk about...
+cRay: We both know that's a load of crap.
+cRay: We were both there. We can't just forget that it happened.
+cJack: You think I did?!
+  cJack.Walk(90, 130,eBlock,eWalkableAreas);
+cJack: I wasn't the one who dissapeared after everything went down.
+cRay: Low blow Jack... I didn't really have any other choice.
+cRobot: Sir... I think you need to calm down...
+goto-dialog 8
+]]></Script>
+            <DialogOptions>
+              <DialogOption>
+                <ID>1</ID>
+                <Say>False</Say>
+                <Show>True</Show>
+                <Text>Yes</Text>
+              </DialogOption>
+              <DialogOption>
+                <ID>2</ID>
+                <Say>False</Say>
+                <Show>True</Show>
+                <Text>No</Text>
+              </DialogOption>
+            </DialogOptions>
+          </Dialog>
+          <Dialog>
+            <ID>8</ID>
+            <Name>dRayFight</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+
+cRay: Stay out of this robot!
+  RayBad += 1;
+
+return
+@1
+cRay: WHAT THE HELL JACK!
+cJack: DON'T TALK TO ROBO THAT WAY!
+cRay: IT'S JUST A ROBOT! 
+cRay: Are you really choosing a robot over a person?
+cJack: Atleast that 'robot' has been here. 
+cJack: He's a better person than you'll ever be.
+  Wait (20);
+cRay: I'm leaving...
+cJack: Good. Shouldn't have come in the first place.
+  cRay.Walk(110,250,eBlock,eWalkableAreas);
+stop
+@2
+cRay: What?
+cJack: I said. Get. Out.
+cRay: Jack... Come on man.
+cJack: You don't get to come in here, pretend nothing happened, then insult Robo.
+cJack: You need to leave.
+cRay: I...
+cRay: Fine.
+  cRay.Walk(110,250,eBlock,eWalkableAreas);
+stop
+]]></Script>
+            <DialogOptions>
+              <DialogOption>
+                <ID>1</ID>
+                <Say>False</Say>
+                <Show>True</Show>
+                <Text xml:space="preserve">Punch Ray</Text>
+              </DialogOption>
+              <DialogOption>
+                <ID>2</ID>
+                <Say>False</Say>
+                <Show>True</Show>
+                <Text xml:space="preserve">Tell him to leave</Text>
+              </DialogOption>
+            </DialogOptions>
+          </Dialog>
+          <Dialog>
+            <ID>9</ID>
+            <Name>dRayTalk</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+cJack: Yes Robo?
+cRobot: I may not know what happened but perhaps starting from the beginning may help.
+cJack: The beginning, huh.
+cRay: That night was a wild night. When we were younger...
+cJack: Not that much younger.
+cRay: Ha. Yeah. Still young enough to make dumb decisions.
+  Wait(20);
+cRay: I'm sorry for leaving.
+cRay: I started freaking out and I just ran.
+cRay: I shouldn't have just left you to deal with that by yourself.
+
+return
+@1
+  RayGood += 1;
+cJack: A lot of things happened that night.
+cJack: I don't blame you for dipping out. I wished you stayed, but I understand.
+cRay: Really?
+cJack: I think so. It's still a lot to process.
+cRay: Of course. I don't expect this to just go away.
+cJack: I need sometime to think.
+cRay: Right. Right. Um...
+cRay: You still have my number?
+cJack: If it didn't change over the past 10 years... yeah I do.
+cRay: Ok. Call me when you're ready.
+cJack: I will.
+  cRay.Walk(110,250,eBlock,eWalkableAreas);
+goto-dialog 10
+
+@2
+  RayBad += 1;
+cJack: I can't get it out of my head. I turned around and you were just sprinting down the alley.
+cJack: I don't think I could ever forget that.
+cRay: Right. Of course.
+cRay: I made a mistake coming here.
+cJack: Yeah. Yeah you did.
+cRay: Maybe one day you can forgive me. Atleast then, one of us has.
+  cRay.Walk(110,250,eBlock,eWalkableAreas);
+goto-dialog 10
+]]></Script>
+            <DialogOptions>
+              <DialogOption>
+                <ID>1</ID>
+                <Say>False</Say>
+                <Show>True</Show>
+                <Text xml:space="preserve">Forgive Ray</Text>
+              </DialogOption>
+              <DialogOption>
+                <ID>2</ID>
+                <Say>False</Say>
+                <Show>True</Show>
+                <Text xml:space="preserve">Don't Forgive Ray</Text>
+              </DialogOption>
+            </DialogOptions>
+          </Dialog>
+          <Dialog>
+            <ID>10</ID>
+            <Name>dBar3</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+  cRobot.FaceCharacter(cJack,eBlock);
+cRobot: Are you alright, sir?
+cJack: I'm... not sure.
+cRobot: Would you like to... talk about it?
+cJack: Later Robo.
+cJack: Later.
+
+  cJack.ChangeRoom(7,270,80,eDirectionDown);
+
+stop
+]]></Script>
+            <DialogOptions />
+          </Dialog>
+          <Dialog>
+            <ID>11</ID>
+            <Name>dRobo</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+
+cRobot: I hope you don't mind me letting myself in.
+cJack: It's fine Robo.
+cRobot: Do you need anything sir?
+cJack: I'm fine.
+cJack: And don't call me sir.
+cRobot: Ok.
+cRobot: Do you want to talk about it, Jack.
+cJack: it's a long story...
+cRobot: I have time.
+  Wait(40);
+
+@1
+  RayGood += 1;
+cJack: It was my fault.
+cJack: We just graduated and were ready to start a new life.
+cJack: Life was pretty bad before. We were scraping by, barely had a dollar to our name.
+cJack: Maybe that's why we got along so well.
+goto-dialog 12
+@2
+  RayBad += 1;
+cJack: It was all Ray's idea.
+cJack: We just graduated and Ray wanted to celebrate.
+cJack: We finally got a taste of the good life. No longer scraping by.
+goto-dialog 12
+]]></Script>
+            <DialogOptions>
+              <DialogOption>
+                <ID>1</ID>
+                <Say>False</Say>
+                <Show>True</Show>
+                <Text xml:space="preserve">Blame Yourself</Text>
+              </DialogOption>
+              <DialogOption>
+                <ID>2</ID>
+                <Say>False</Say>
+                <Show>True</Show>
+                <Text xml:space="preserve">Blame Ray</Text>
+              </DialogOption>
+            </DialogOptions>
+          </Dialog>
+          <Dialog>
+            <ID>12</ID>
+            <Name>dRobo01</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+cJack: We went out with some of our classmates. A random club in a random street.
+cJack: Everything was going well until someone brought out Blue Cubes.
+cRobot: Blue cubes? Is that the drug going around the blackmarket?
+cJack: One of them. When we had it, it was brand new.
+cJack: Everyone started taking it.
+
+return
+@1
+cJack: I eventually did too. 
+cJack: After that, everything was a blur until we were throwing up in the alley.
+  Wait(40);
+cJack: One person stopped moving after a while.
+cJack: The rest of the group had already left. It was just me an Ray.
+cJack: We tried checking up on them. We thought they were just asleep.
+cRobot: But they were not asleep. Were they?
+cJack: No. No they were not.
+cJack: That's when we started to panic. We had no idea what to do.
+cJack: And then...
+cJack: Ray ran. Just ran out of the alley. Leaving me with the dead...
+cJack: Leaving me alone.
+goto-dialog 13
+@2
+cJack: I didn't. I had enough alcohol.
+cJack: They started getting really hyper. LIke they had too much coffee.
+cJack: But what comes in must come out. 
+cJack: Next thing I know, I'm patting Ray on the back while he vomits blue.
+cRobot: That doesn't sound very pleasant.
+cJack: Ha. It wasn't.
+cJack: Everyone started leaving. I started dragging Ray out of the alley when I noticed someone on the floor.
+cJack: I thought they just passed out. 
+cJack: Ray wanted to wake them up before we left. 
+cJack: I tried.
+  Wait(40);
+cRobot: They didn't wake up. Did they?
+cJack: Everyone else was fine! Everyone else walked out of that alley.
+cJack: We started to panic. Apparently there was still some stuff in Ray's system.
+cJack: He started going frantic... then boom!
+cJack: Just started sprinting.
+cJack: Left me alone in the alley.
+goto-dialog 13
+]]></Script>
+            <DialogOptions>
+              <DialogOption>
+                <ID>1</ID>
+                <Say>False</Say>
+                <Show>True</Show>
+                <Text xml:space="preserve">Used Blue Cube</Text>
+              </DialogOption>
+              <DialogOption>
+                <ID>2</ID>
+                <Say>False</Say>
+                <Show>True</Show>
+                <Text xml:space="preserve">Refused Blue Cube</Text>
+              </DialogOption>
+            </DialogOptions>
+          </Dialog>
+          <Dialog>
+            <ID>13</ID>
+            <Name>dRobo2</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+
+cRobot: What did you do?
+cJack: I was frozen at first.
+
+@1
+cJack: Eventually I called the police. 
+cJack: After that... I'm not really sure. I was questioned, a suspect until they sorted things out.
+cJack: Some of the worst weeks up my life. 
+  Wait(40);
+cRobot: Do you need anything?
+cJack: I think I just need to rest.
+cRobot: Ok. Let me know if you need anything.
+cJack: Thanks...
+  cRobot.Walk(236,200,eBlock,eAnywhere);
+  cJack.ChangeRoom(8);
+stop
+@2
+cJack: Eventually I ran too.
+cJack: The next thing I know, police are knocking at my door.
+cJack: Apparently they just wanted to let me know that they found them.
+cJack: The place was so run down, there wasn't any cameras.
+cJack: Only evidence was the Blue Cube still in their system.
+cRobot: I'm sorry that this happened to you.
+cRobot: Do you need anything?
+cJack: I just want to go to sleep.
+cRobot: Ok. I am just a phone call away if you change your mind.
+cJack: Thanks
+  cRobot.Walk(236,200,eBlock,eAnywhere);
+  cJack.ChangeRoom(8);
+stop
+]]></Script>
+            <DialogOptions>
+              <DialogOption>
+                <ID>1</ID>
+                <Say>False</Say>
+                <Show>True</Show>
+                <Text xml:space="preserve">called the Police</Text>
+              </DialogOption>
+              <DialogOption>
+                <ID>2</ID>
+                <Say>False</Say>
+                <Show>True</Show>
+                <Text xml:space="preserve">ran away</Text>
+              </DialogOption>
+            </DialogOptions>
           </Dialog>
         </Dialogs>
       </DialogFolder>
@@ -3073,6 +3880,66 @@ stop
           <DefaultValue>false</DefaultValue>
           <Name>PhoneHave</Name>
           <Type>bool</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue>false</DefaultValue>
+          <Name>RoboTalk</Name>
+          <Type>bool</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue>false</DefaultValue>
+          <Name>Glass</Name>
+          <Type>bool</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue>false</DefaultValue>
+          <Name>Alcohol</Name>
+          <Type>bool</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue>false</DefaultValue>
+          <Name>AddStawberry</Name>
+          <Type>bool</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue>false</DefaultValue>
+          <Name>AddLemon</Name>
+          <Type>bool</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue>false</DefaultValue>
+          <Name>AddBlueberry</Name>
+          <Type>bool</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue>false</DefaultValue>
+          <Name>AddRose</Name>
+          <Type>bool</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue>false</DefaultValue>
+          <Name>AddMint</Name>
+          <Type>bool</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue>false</DefaultValue>
+          <Name>AddSour</Name>
+          <Type>bool</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue>0</DefaultValue>
+          <Name>HappyCustomer</Name>
+          <Type>int</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue>0</DefaultValue>
+          <Name>RayGood</Name>
+          <Type>int</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue>0</DefaultValue>
+          <Name>RayBad</Name>
+          <Type>int</Type>
         </GlobalVariable>
       </Variables>
     </GlobalVariables>
@@ -5285,6 +6152,246 @@ stop
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
+                  <Sprite Slot="58" Width="13" Height="24" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>D:\AGS\Sprites\Characters\Ray\Ray Walking Back-1.png.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>24</ImportHeight>
+                      <ImportWidth>13</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="59" Width="13" Height="24" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>D:\AGS\Sprites\Characters\Ray\Ray Walking Back-2.png.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>24</ImportHeight>
+                      <ImportWidth>13</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="60" Width="13" Height="24" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>D:\AGS\Sprites\Characters\Ray\Ray Walking Back-3.png.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>24</ImportHeight>
+                      <ImportWidth>13</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="61" Width="13" Height="24" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>D:\AGS\Sprites\Characters\Ray\Ray Walking Back-4.png.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>24</ImportHeight>
+                      <ImportWidth>13</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="62" Width="13" Height="24" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>D:\AGS\Sprites\Characters\Ray\Ray Walking Front-1.png.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>24</ImportHeight>
+                      <ImportWidth>13</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="63" Width="13" Height="24" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>D:\AGS\Sprites\Characters\Ray\Ray Walking Front-2.png.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>24</ImportHeight>
+                      <ImportWidth>13</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="64" Width="13" Height="24" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>D:\AGS\Sprites\Characters\Ray\Ray Walking Front-3.png.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>24</ImportHeight>
+                      <ImportWidth>13</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="65" Width="13" Height="24" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>D:\AGS\Sprites\Characters\Ray\Ray Walking Front-4.png.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>24</ImportHeight>
+                      <ImportWidth>13</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="66" Width="13" Height="24" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>D:\AGS\Sprites\Characters\Ray\Ray Walking Side (Left)-1.png.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>24</ImportHeight>
+                      <ImportWidth>13</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="67" Width="13" Height="24" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>D:\AGS\Sprites\Characters\Ray\Ray Walking Side (Left)-2.png.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>24</ImportHeight>
+                      <ImportWidth>13</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="68" Width="13" Height="24" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>D:\AGS\Sprites\Characters\Ray\Ray Walking Side (Left)-3.png.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>24</ImportHeight>
+                      <ImportWidth>13</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="69" Width="13" Height="24" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>D:\AGS\Sprites\Characters\Ray\Ray Walking Side (Left)-4.png.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>24</ImportHeight>
+                      <ImportWidth>13</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="70" Width="13" Height="24" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>D:\AGS\Sprites\Characters\Ray\Ray Walking Side (Right)-1.png.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>24</ImportHeight>
+                      <ImportWidth>13</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="71" Width="13" Height="24" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>D:\AGS\Sprites\Characters\Ray\Ray Walking Side (Right)-2.png.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>24</ImportHeight>
+                      <ImportWidth>13</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="72" Width="13" Height="24" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>D:\AGS\Sprites\Characters\Ray\Ray Walking Side (Right)-3.png.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>24</ImportHeight>
+                      <ImportWidth>13</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="73" Width="13" Height="24" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>D:\AGS\Sprites\Characters\Ray\Ray Walking Side (Right)-4.png.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>24</ImportHeight>
+                      <ImportWidth>13</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
                 </Sprites>
               </SpriteFolder>
             </SubFolders>
@@ -5401,6 +6508,156 @@ stop
                   <OffsetY>0</OffsetY>
                   <ImportHeight>16</ImportHeight>
                   <ImportWidth>16</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="49" Width="8" Height="8" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\13362\Downloads\New Piskel-1.png (1).png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>8</ImportHeight>
+                  <ImportWidth>8</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="50" Width="8" Height="8" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\13362\Downloads\New Piskel-1.png.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>8</ImportHeight>
+                  <ImportWidth>8</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="51" Width="32" Height="32" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\13362\Downloads\Drinks-6.png.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>32</ImportHeight>
+                  <ImportWidth>32</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="52" Width="32" Height="32" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\13362\Downloads\Drinks-4.png.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>32</ImportHeight>
+                  <ImportWidth>32</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="53" Width="32" Height="32" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\13362\Downloads\Drinks-2.png.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>32</ImportHeight>
+                  <ImportWidth>32</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="54" Width="32" Height="32" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\13362\Downloads\Drinks-1.png.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>32</ImportHeight>
+                  <ImportWidth>32</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="55" Width="32" Height="32" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\13362\Downloads\Drinks-7.png.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>32</ImportHeight>
+                  <ImportWidth>32</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="56" Width="32" Height="32" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\13362\Downloads\Drinks-5.png.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>32</ImportHeight>
+                  <ImportWidth>32</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="57" Width="32" Height="32" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\13362\Downloads\Drinks-3.png.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>32</ImportHeight>
+                  <ImportWidth>32</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="74" Width="165" Height="60" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>D:\AGS\Sprites\Objects\Drink UI-1.png.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>60</ImportHeight>
+                  <ImportWidth>165</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -6025,6 +7282,148 @@ stop
                     <Flipped>False</Flipped>
                     <ID>3</ID>
                     <Image>16</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+            </Loops>
+          </View>
+          <View>
+            <ID>5</ID>
+            <Name>View5</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>0</ID>
+                    <Image>62</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>1</ID>
+                    <Image>63</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>2</ID>
+                    <Image>64</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>3</ID>
+                    <Image>65</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>1</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>0</ID>
+                    <Image>66</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>1</ID>
+                    <Image>67</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>2</ID>
+                    <Image>68</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>3</ID>
+                    <Image>69</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>2</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>0</ID>
+                    <Image>70</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>1</ID>
+                    <Image>71</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>2</ID>
+                    <Image>72</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>3</ID>
+                    <Image>73</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>3</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>0</ID>
+                    <Image>58</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>1</ID>
+                    <Image>59</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>2</ID>
+                    <Image>60</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>3</ID>
+                    <Image>61</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
                 </Frames>
