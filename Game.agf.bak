@@ -782,7 +782,7 @@
               <Left>0</Left>
               <Name>gIconbar</Name>
               <OnClick />
-              <PopupStyle>MouseYPos</PopupStyle>
+              <PopupStyle>Persistent</PopupStyle>
               <PopupYPos>13</PopupYPos>
               <Top>0</Top>
               <Transparency>0</Transparency>
